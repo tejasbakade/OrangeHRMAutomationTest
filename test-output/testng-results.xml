@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-25T17:01:27 IST" name="Default suite" finished-at="2022-09-25T17:04:07 IST" duration-ms="160270">
+    <groups>
+    </groups>
+    <test started-at="2022-09-25T17:01:27 IST" name="Default test" finished-at="2022-09-25T17:04:07 IST" duration-ms="160270">
+      <class name="com.orangehrm.qa.pages.LoginPage">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:01:27 IST" name="setUpBrowser" finished-at="2022-09-25T17:01:45 IST" duration-ms="17619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="checkLandingPageTitleTest()[pri:1, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:01:45 IST" name="checkLandingPageTitleTest" finished-at="2022-09-25T17:01:45 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLandingPageTitleTest -->
+        <test-method is-config="true" signature="endSetUp()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:01:45 IST" name="endSetUp" finished-at="2022-09-25T17:01:45 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSetUp -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:01:45 IST" name="setUpBrowser" finished-at="2022-09-25T17:01:56 IST" duration-ms="11317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="checkloginTest()[pri:2, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:01:56 IST" name="checkloginTest" finished-at="2022-09-25T17:02:01 IST" duration-ms="4820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkloginTest -->
+        <test-method is-config="true" signature="endSetUp()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:02:01 IST" name="endSetUp" finished-at="2022-09-25T17:02:01 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSetUp -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:02:01 IST" name="setUpBrowser" finished-at="2022-09-25T17:02:16 IST" duration-ms="14277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="emptypasswordSpaceLoginTest()[pri:3, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:02:16 IST" name="emptypasswordSpaceLoginTest" finished-at="2022-09-25T17:02:17 IST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptypasswordSpaceLoginTest -->
+        <test-method is-config="true" signature="endSetUp()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:02:17 IST" name="endSetUp" finished-at="2022-09-25T17:02:17 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSetUp -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:02:17 IST" name="setUpBrowser" finished-at="2022-09-25T17:02:33 IST" duration-ms="16339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="emptyusernameSpaceLoginTest()[pri:4, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:02:33 IST" name="emptyusernameSpaceLoginTest" finished-at="2022-09-25T17:02:35 IST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyusernameSpaceLoginTest -->
+        <test-method is-config="true" signature="endSetUp()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:02:35 IST" name="endSetUp" finished-at="2022-09-25T17:02:35 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSetUp -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:02:35 IST" name="setUpBrowser" finished-at="2022-09-25T17:02:50 IST" duration-ms="15217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="emptyUserPassSpaceTest()[pri:5, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:02:50 IST" name="emptyUserPassSpaceTest" finished-at="2022-09-25T17:02:51 IST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUserPassSpaceTest -->
+        <test-method is-config="true" signature="endSetUp()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:02:51 IST" name="endSetUp" finished-at="2022-09-25T17:02:51 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSetUp -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:02:51 IST" name="setUpBrowser" finished-at="2022-09-25T17:03:02 IST" duration-ms="10533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="checkLogoutTest()[pri:6, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:03:02 IST" name="checkLogoutTest" finished-at="2022-09-25T17:03:08 IST" duration-ms="5841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogoutTest -->
+        <test-method is-config="true" signature="endSetUp()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:03:08 IST" name="endSetUp" finished-at="2022-09-25T17:03:08 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSetUp -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:03:08 IST" name="setUpBrowser" finished-at="2022-09-25T17:03:14 IST" duration-ms="5586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="checkLinkedinShareTest()[pri:7, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:03:14 IST" name="checkLinkedinShareTest" finished-at="2022-09-25T17:03:17 IST" duration-ms="3149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLinkedinShareTest -->
+        <test-method is-config="true" signature="endSetUp()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:03:17 IST" name="endSetUp" finished-at="2022-09-25T17:03:17 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSetUp -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:03:17 IST" name="setUpBrowser" finished-at="2022-09-25T17:03:37 IST" duration-ms="19676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="checkFacebookShareTest()[pri:8, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:03:37 IST" name="checkFacebookShareTest" finished-at="2022-09-25T17:03:40 IST" duration-ms="3688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFacebookShareTest -->
+        <test-method is-config="true" signature="endSetUp()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:03:40 IST" name="endSetUp" finished-at="2022-09-25T17:03:41 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSetUp -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:03:41 IST" name="setUpBrowser" finished-at="2022-09-25T17:03:47 IST" duration-ms="6388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="checkTwitterShareTest()[pri:9, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:03:47 IST" name="checkTwitterShareTest" finished-at="2022-09-25T17:03:51 IST" duration-ms="3679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTwitterShareTest -->
+        <test-method is-config="true" signature="endSetUp()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:03:51 IST" name="endSetUp" finished-at="2022-09-25T17:03:51 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSetUp -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:03:51 IST" name="setUpBrowser" finished-at="2022-09-25T17:04:01 IST" duration-ms="9668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="checkYoutubeShareTest()[pri:10, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:04:01 IST" name="checkYoutubeShareTest" finished-at="2022-09-25T17:04:07 IST" duration-ms="6465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkYoutubeShareTest -->
+        <test-method is-config="true" signature="endSetUp()[pri:0, instance:com.orangehrm.qa.pages.LoginPage@223d2c72]" started-at="2022-09-25T17:04:07 IST" name="endSetUp" finished-at="2022-09-25T17:04:07 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSetUp -->
+      </class> <!-- com.orangehrm.qa.pages.LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
