@@ -27,7 +27,7 @@ public class PIMLandingPage {
 	
 	public PIMLandingPage() throws IOException, FileNotFoundException {
 		prop = new Properties();
-		FileInputStream ip = new FileInputStream("C:\\\\Users\\\\91772\\\\eclipse-workspace\\\\SeleniumBasics\\\\src\\\\com\\\\orangehrm\\\\config.properties");
+		FileInputStream ip = new FileInputStream("C:\\Users\\91772\\eclipse-workspace\\orangehrmtest\\src\\main\\java\\com\\orangehrm\\qa\\configuration\\config.properties");
 		prop.load(ip);
 	}
 	
@@ -62,23 +62,43 @@ public class PIMLandingPage {
 		
 		new WebDriverWait(driver,Duration.ofSeconds(5)).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='oxd-toast-content oxd-toast-content--success']")));
 		String s = driver.findElement(By.xpath("//div[@class='oxd-toast-content oxd-toast-content--success']")).getText();
-		boolean bool = s.contains("Successfully Saved");
 		System.out.println(s);
-		Assert.assertTrue(bool);
-//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-//		driver.findElement(By.xpath("//a[@class='oxd-topbar-body-nav-tab-item' and text()='Employee List']")).click();
-//		List<WebElement> list = driver.findElements(By.xpath("//div[@class='oxd-table orangehrm-employee-list']//descendant::div[@class='oxd-table-body']//div[@class='oxd-table-card']"));
-//		for(int i=1; i<=list.size(); i++) {
-//			WebElement recordname1 = driver.findElement(By.xpath("//div[@class='oxd-table orangehrm-employee-list']//descendant::div[@class='oxd-table-body']//div[@class='oxd-table-card']//div//div[3]"));
-//			WebElement recordname2 = driver.findElement(By.xpath("//div[@class='oxd-table orangehrm-employee-list']//descendant::div[@class='oxd-table-body']//div[@class='oxd-table-card']//div//div[4]"));
-//			String recordname = recordname1.getText() +" "+ recordname2.getText();
-//			System.out.println(recordname + " ");
-//			String fullname = firstname + " "+ middlename + " " + lastname;	
-//			System.out.print(fullname);
-//			if(recordname.equals(fullname)) {
-//				Assert.assertEquals(recordname, fullname);
-//			}
-//		}
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		
+		driver.findElement(By.xpath("//a[@class='oxd-topbar-body-nav-tab-item' and text()='Employee List']")).click();
+		List<WebElement> list = driver.findElements(By.xpath("//div[@class='oxd-table-body']//div[@class='oxd-table-card']//div[3]"));
+		for(int i=0; i<list.size(); i++) {
+			String recordname = list.get(i).getText();
+			if(recordname.equals(firstname+" "+middlename)) {
+				Assert.assertEquals(recordname, firstname+" "+middlename);	
+			}		
+		}
+	}
+	
+	@Test
+	public void deleteEmployeeTest() {
+		driver.findElement(By.xpath("//input[@name='username']")).sendKeys(prop.getProperty("username"));
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(prop.getProperty("password"));
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		
+		String firstname = prop.getProperty("firstname");
+		String middlename = prop.getProperty("middlename");
+		List<WebElement> list = driver.findElements(By.xpath("//div[@class='oxd-table-body']//div[@class='oxd-table-card']//div[3]"));
+		for(int i=0; i<list.size();i++) {
+			String name = list.get(i).getText();
+			if(name.equals(firstname + " " + middlename)) {
+				WebElement deletebtn = driver.findElement(By.xpath("//div[@class='oxd-table-body']//div[@class='oxd-table-card']//div[contains(text(),'"+firstname+" "+middlename+"')]//parent::div//parent::div//descendant::button//i[@class='oxd-icon bi-trash']"));
+				deletebtn.click();
+				WebElement deletebin = driver.findElement(By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin']"));
+				new WebDriverWait(driver,Duration.ofSeconds(3)).until(ExpectedConditions.elementToBeClickable(deletebin)).click();
+				
+				String s = driver.findElement(By.xpath("//div[@class='oxd-toast-content oxd-toast-content--success']")).getText();
+				boolean bool = s.contains("Successfully Deleted");
+				System.out.println(s);
+				Assert.assertTrue(bool);
+				break;
+			}
+		}
 	}
 	
 	@AfterMethod
