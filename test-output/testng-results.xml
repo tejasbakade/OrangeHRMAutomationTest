@@ -1,21 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-13T18:40:00 IST" name="Default suite" finished-at="2022-10-13T18:40:15 IST" duration-ms="14962">
+  <suite started-at="2022-10-16T00:16:46 IST" name="Default suite" finished-at="2022-10-16T00:20:38 IST" duration-ms="231628">
     <groups>
     </groups>
-    <test started-at="2022-10-13T18:40:00 IST" name="Default test" finished-at="2022-10-13T18:40:15 IST" duration-ms="14962">
+    <test started-at="2022-10-16T00:16:46 IST" name="Default test" finished-at="2022-10-16T00:20:38 IST" duration-ms="231628">
       <class name="com.orangehrm.qa.pages.PIMLandingPage">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.qa.pages.PIMLandingPage@3a93b025]" started-at="2022-10-13T18:40:00 IST" name="setUp" finished-at="2022-10-13T18:40:09 IST" duration-ms="9153" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.qa.pages.PIMLandingPage@36bc55de]" started-at="2022-10-16T00:16:46 IST" name="setUp" finished-at="2022-10-16T00:17:36 IST" duration-ms="50127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="deleteEmployeeTest()[pri:0, instance:com.orangehrm.qa.pages.PIMLandingPage@3a93b025]" started-at="2022-10-13T18:40:09 IST" name="deleteEmployeeTest" finished-at="2022-10-13T18:40:15 IST" duration-ms="5529" status="PASS">
+        <test-method signature="addEmployeeTest()[pri:1, instance:com.orangehrm.qa.pages.PIMLandingPage@36bc55de]" started-at="2022-10-16T00:17:36 IST" name="addEmployeeTest" finished-at="2022-10-16T00:17:51 IST" duration-ms="15069" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteEmployeeTest -->
-        <test-method is-config="true" signature="endsetUp()[pri:0, instance:com.orangehrm.qa.pages.PIMLandingPage@3a93b025]" started-at="2022-10-13T18:40:15 IST" name="endsetUp" finished-at="2022-10-13T18:40:15 IST" duration-ms="229" status="PASS">
+        </test-method> <!-- addEmployeeTest -->
+        <test-method is-config="true" signature="endsetUp()[pri:0, instance:com.orangehrm.qa.pages.PIMLandingPage@36bc55de]" started-at="2022-10-16T00:17:51 IST" name="endsetUp" finished-at="2022-10-16T00:17:52 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endsetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.qa.pages.PIMLandingPage@36bc55de]" started-at="2022-10-16T00:17:52 IST" name="setUp" finished-at="2022-10-16T00:18:15 IST" duration-ms="22941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="editPersonalDetailsTest()[pri:2, instance:com.orangehrm.qa.pages.PIMLandingPage@36bc55de]" started-at="2022-10-16T00:18:15 IST" name="editPersonalDetailsTest" finished-at="2022-10-16T00:18:30 IST" duration-ms="15556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editPersonalDetailsTest -->
+        <test-method is-config="true" signature="endsetUp()[pri:0, instance:com.orangehrm.qa.pages.PIMLandingPage@36bc55de]" started-at="2022-10-16T00:18:30 IST" name="endsetUp" finished-at="2022-10-16T00:18:32 IST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endsetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.qa.pages.PIMLandingPage@36bc55de]" started-at="2022-10-16T00:18:32 IST" name="setUp" finished-at="2022-10-16T00:19:12 IST" duration-ms="40531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="editContactDetailsTest()[pri:3, instance:com.orangehrm.qa.pages.PIMLandingPage@36bc55de]" started-at="2022-10-16T00:19:12 IST" name="editContactDetailsTest" finished-at="2022-10-16T00:19:36 IST" duration-ms="24311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editContactDetailsTest -->
+        <test-method is-config="true" signature="endsetUp()[pri:0, instance:com.orangehrm.qa.pages.PIMLandingPage@36bc55de]" started-at="2022-10-16T00:19:36 IST" name="endsetUp" finished-at="2022-10-16T00:19:37 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endsetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.qa.pages.PIMLandingPage@36bc55de]" started-at="2022-10-16T00:19:37 IST" name="setUp" finished-at="2022-10-16T00:20:15 IST" duration-ms="38202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="editJobDetailsTest()[pri:4, instance:com.orangehrm.qa.pages.PIMLandingPage@36bc55de]" started-at="2022-10-16T00:20:15 IST" name="editJobDetailsTest" finished-at="2022-10-16T00:20:38 IST" duration-ms="22775" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-form-row']//descendant::label[contains(text(),'Job Title')]//parent::div//following-sibling::div//descendant::i"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LOVEKICK', ip: '192.168.43.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5588500128e107b586d9848c14435105, findElement {using=xpath, value=//div[@class='oxd-form-row']//descendant::label[contains(text(),'Job Title')]//parent::div//following-sibling::div//descendant::i}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\91772\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53397}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53397/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5588500128e107b586d9848c14435105]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-form-row']//descendant::label[contains(text(),'Job Title')]//parent::div//following-sibling::div//descendant::i"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LOVEKICK', ip: '192.168.43.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5588500128e107b586d9848c14435105, findElement {using=xpath, value=//div[@class='oxd-form-row']//descendant::label[contains(text(),'Job Title')]//parent::div//following-sibling::div//descendant::i}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\91772\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53397}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53397/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5588500128e107b586d9848c14435105
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at com.orangehrm.qa.pages.PIMLandingPage.editJobDetailsTest(PIMLandingPage.java:292)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editJobDetailsTest -->
+        <test-method is-config="true" signature="endsetUp()[pri:0, instance:com.orangehrm.qa.pages.PIMLandingPage@36bc55de]" started-at="2022-10-16T00:20:38 IST" name="endsetUp" finished-at="2022-10-16T00:20:38 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endsetUp -->

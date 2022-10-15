@@ -5,7 +5,7 @@
     <classes>
       <class name="com.orangehrm.qa.pages.PIMLandingPage">
         <methods>
-          <include name="addEmployeeTest"/>
+          <include name="editJobDetailsTest"/>
           <include name="setUp"/>
           <include name="endsetUp"/>
         </methods>
